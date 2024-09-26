@@ -1,0 +1,310 @@
+<html></html>
+<head>
+    <title>Skills & Languages</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #fff;
+        }
+        .header img {
+            height: 50px;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #000;
+            font-weight: 500;
+        }
+        .nav a.active {
+            background-color: #ffcc00;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .main {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .main h1 {
+            font-size: 36px;
+            font-weight: 700;
+        }
+        .main p {
+            font-size: 16px;
+            color: #777;
+            max-width: 600px;
+            margin: 10px auto 30px;
+        }
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .skill-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .skill-card h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .skill {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .skill-bar {
+            background-color: #ffcc00;
+            height: 5px;
+            border-radius: 5px;
+            width: 70%;
+        }
+        .add-skill {
+            background-color: #ffcc00;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 30px auto;
+            display: block;
+        }
+        .footer {
+            background-color: #f5f7fa;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .footer .logos {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-bottom: 30px;
+        }
+        .footer .logos img {
+            height: 50px;
+        }
+        .footer .links {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-bottom: 30px;
+        }
+        .footer .links div {
+            text-align: left;
+        }
+        .footer .links h4 {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .footer .links a {
+            text-decoration: none;
+            color: #000;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .footer .social {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .footer .social a {
+            color: #000;
+            font-size: 20px;
+        }
+        .footer .copyright {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="./assets/logo.png" alt="Logo">
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#" class="active">Skills</a>
+            <a href="#">Education</a>
+            <a href="#">Projects</a>
+            <a href="#">Recommendations</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main class="main">
+        <h1>Skills & Languages</h1>
+        <p>Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum</p>
+        <div class="skills">
+            <div class="skill-card">
+                <h3>Front End Development</h3>
+                <div class="skill">
+                    <span>Html</span>
+                    <span>90%</span>
+                </div>
+                <div class="skill-bar" style="width: 90%;"></div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar" style="width: 85%;"></div>
+                <div class="skill">
+                    <span>Js</span>
+                    <span>80%</span>
+                </div>
+                <div class="skill-bar" style="width: 80%;"></div>
+                <div class="skill">
+                    <span>PHP</span>
+                    <span>75%</span>
+                </div>
+                <div class="skill-bar" style="width: 75%;"></div>
+                <div class="skill">
+                    <span>WordPress</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar" style="width: 85%;"></div>
+            </div>
+            <div class="skill-card">
+                <h3>Languages</h3>
+                <div class="skill">
+                    <span>Hindi</span>
+                    <span>90%</span>
+                </div>
+                <div class="skill-bar" style="width: 90%;"></div>
+                <div class="skill">
+                    <span>English</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar" style="width: 85%;"></div>
+            </div>
+            <div class="skill-card">
+                <h3>Back End Development</h3>
+                <div class="skill">
+                    <span>NodeJS</span>
+                    <span>90%</span>
+                </div>
+                <div class="skill-bar" style="width: 90%;"></div>
+                <div class="skill">
+                    <span>SSR</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar" style="width: 85%;"></div>
+            </div>
+            <div class="skill-card">
+                <h3>Front End Development</h3>
+                <div class="skill">
+                    <span>Html</span>
+                    <span>90%</span>
+                </div>
+                <div class="skill-bar" style="width: 90%;"></div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar" style="width: 85%;"></div>
+                <div class="skill">
+                    <span>Js</span>
+                    <span>80%</span>
+                </div>
+                <div class="skill-bar" style="width: 80%;"></div>
+                <div class="skill">
+                    <span>PHP</span>
+                    <span>75%</span>
+                </div>
+                <div class="skill-bar" style="width: 75%;"></div>
+                <div class="skill">
+                    <span>WordPress</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar" style="width: 85%;"></div>
+            </div>
+            <div class="skill-card">
+                <h3>Languages</h3>
+                <div class="skill">
+                    <span>Hindi</span>
+                    <span>90%</span>
+                </div>
+                <div class="skill-bar" style="width: 90%;"></div>
+                <div class="skill">
+                    <span>English</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar" style="width: 85%;"></div>
+            </div>
+            <div class="skill-card">
+                <h3>Back End Development</h3>
+                <div class="skill">
+                    <span>NodeJS</span>
+                    <span>90%</span>
+                </div>
+                <div class="skill-bar" style="width: 90%;"></div>
+                <div class="skill">
+                    <span>SSR</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar" style="width: 85%;"></div>
+            </div>
+        </div>
+        <button class="add-skill">ADD SKILL</button>
+    </main>
+    <footer class="footer">
+        <div class="logos">
+            <img src="https://placehold.co/50x50" alt="Logo 1">
+            <img src="https://placehold.co/50x50" alt="Logo 2">
+            <img src="https://placehold.co/50x50" alt="Logo 3">
+            <img src="https://placehold.co/50x50" alt="Logo 4">
+        </div>
+        <div class="links">
+            <div>
+                <h4>Quick Links</h4>
+                <a href="#">Home</a>
+                <a href="#">Skills</a>
+                <a href="#">Education</a>
+                <a href="#">Projects</a>
+                <a href="#">Recommendations</a>
+            </div>
+            <div>
+                <h4>Portfolio</h4>
+                <a href="#">Frontend Development</a>
+                <a href="#">Backend Development</a>
+                <a href="#">Website Design</a>
+                <a href="#">Machine Learning</a>
+                <a href="#">Problem Solving & DSA</a>
+            </div>
+            <div>
+                <h4>Connect</h4>
+                <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+            </div>
+        </div>
+        <div class="social">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="copyright">
+            © 2024 Copyright, All Right Reserved
+        </div>
+    </footer>
+</body>
+</html>

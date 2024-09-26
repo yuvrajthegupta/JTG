@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  header {
+    background: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .header-content h1 {
+    font-size: 48px;
+  }
+  
+  .header-content h2 {
+    color: #ff6600;
+    margin: 10px 0;
+  }
+  
+  .header-content p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  #projects {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .projects-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .project-card {
+    width: 48%;
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 10px 0;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .project-card h3 {
+    margin: 15px 0;
+  }
+  
+  #recommendations {
+    padding: 40px;
+    background: #f4f4f4;
+    text-align: center;
+  }
+  
+  .recommendations-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .recommendation-card {
+    width: 30%;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #contact {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #333;
+    color: white;
+  }
+  

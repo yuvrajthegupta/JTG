@@ -1,0 +1,376 @@
+<html></html>
+<head>
+    <title>Rayan Adlirdard - Front-end Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header img {
+            width: 50px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a.active {
+            color: #f7b731;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background-color: #fff;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero h1 span {
+            color: #f7b731;
+        }
+        .hero p {
+            font-size: 18px;
+            color: #777;
+            margin: 20px 0;
+        }
+        .hero button {
+            background-color: #f7b731;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .projects, .recommendations, .contact {
+            padding: 50px 20px;
+            background-color: #fff;
+            margin: 20px 0;
+        }
+        .projects h2, .recommendations h2, .contact h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .projects .project-list, .recommendations .recommendation-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .projects .project, .recommendations .recommendation {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+        .projects .project img, .recommendations .recommendation img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .projects .project h3, .recommendations .recommendation h3 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .projects .project p, .recommendations .recommendation p {
+            font-size: 14px;
+            color: #777;
+        }
+        .projects .project .tags, .recommendations .recommendation .tags {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .projects .project .tags span, .recommendations .recommendation .tags span {
+            background-color: #f7b731;
+            color: #fff;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin: 5px;
+            font-size: 12px;
+        }
+        .contact .form, .contact .info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .contact .form {
+            width: 60%;
+        }
+        .contact .info {
+            width: 35%;
+        }
+        .contact .form input, .contact .form textarea {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact .form button {
+            background-color: #f7b731;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact .info div {
+            margin: 10px 0;
+        }
+        .contact .info div i {
+            color: #f7b731;
+            margin-right: 10px;
+        }
+        footer {
+            background-color: #fff;
+            padding: 20px 50px;
+            text-align: center;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer .links, footer .portfolio, footer .connect {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        footer .links a, footer .portfolio a, footer .connect a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        footer .connect a i {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://placehold.co/50x50" alt="Logo">
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Skills</a>
+            <a href="#">Education</a>
+            <a href="#">Projects</a>
+            <a href="#">Recommendations</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>I'm Rayan Adlirdard <span>Front-end Developer</span></h1>
+        <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit, Et, Volutpat Feugiat Placerat Lobortis. Natoque Rutrum Semper Sed Suspendisse Nunc Lectus.</p>
+        <button>HIRE ME</button>
+    </section>
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <img src="https://placehold.co/300x200" alt="Project Image">
+                <h3>How To Make Flyer Design</h3>
+                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit Awd Lorem Ipsum...</p>
+                <div class="tags">
+                    <span>Typescript</span>
+                    <span>ReactJs</span>
+                    <span>NextJs</span>
+                    <span>CSS</span>
+                    <span>HTML</span>
+                    <span>MongoDB</span>
+                </div>
+            </div>
+            <div class="project">
+                <img src="https://placehold.co/300x200" alt="Project Image">
+                <h3>How To Make Flyer Design</h3>
+                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit Awd Lorem Ipsum...</p>
+                <div class="tags">
+                    <span>Typescript</span>
+                    <span>ReactJs</span>
+                    <span>NextJs</span>
+                    <span>CSS</span>
+                    <span>HTML</span>
+                    <span>MongoDB</span>
+                </div>
+            </div>
+            <div class="project">
+                <img src="https://placehold.co/300x200" alt="Project Image">
+                <h3>How To Make Flyer Design</h3>
+                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit Awd Lorem Ipsum...</p>
+                <div class="tags">
+                    <span>Typescript</span>
+                    <span>ReactJs</span>
+                    <span>NextJs</span>
+                    <span>CSS</span>
+                    <span>HTML</span>
+                    <span>MongoDB</span>
+                </div>
+            </div>
+            <div class="project">
+                <img src="https://placehold.co/300x200" alt="Project Image">
+                <h3>How To Make Flyer Design</h3>
+                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit Awd Lorem Ipsum...</p>
+                <div class="tags">
+                    <span>Typescript</span>
+                    <span>ReactJs</span>
+                    <span>NextJs</span>
+                    <span>CSS</span>
+                    <span>HTML</span>
+                    <span>MongoDB</span>
+                </div>
+            </div>
+            <div class="project">
+                <img src="https://placehold.co/300x200" alt="Project Image">
+                <h3>How To Make Flyer Design</h3>
+                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit Awd Lorem Ipsum...</p>
+                <div class="tags">
+                    <span>Typescript</span>
+                    <span>ReactJs</span>
+                    <span>NextJs</span>
+                    <span>CSS</span>
+                    <span>HTML</span>
+                    <span>MongoDB</span>
+                </div>
+            </div>
+            <div class="project">
+                <img src="https://placehold.co/300x200" alt="Project Image">
+                <h3>How To Make Flyer Design</h3>
+                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit Awd Lorem Ipsum...</p>
+                <div class="tags">
+                    <span>Typescript</span>
+                    <span>ReactJs</span>
+                    <span>NextJs</span>
+                    <span>CSS</span>
+                    <span>HTML</span>
+                    <span>MongoDB</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recommendations">
+        <h2>Recommendations</h2>
+        <div class="recommendation-list">
+            <div class="recommendation">
+                <img src="https://placehold.co/300x200" alt="Recommendation Image">
+                <h3>Great Quality!</h3>
+                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet...</p>
+                <div class="tags">
+                    <span>James Gouse</span>
+                    <span>Graphic Designer</span>
+                </div>
+            </div>
+            <div class="recommendation">
+                <img src="https://placehold.co/300x200" alt="Recommendation Image">
+                <h3>Amazing Work!</h3>
+                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet...</p>
+                <div class="tags">
+                    <span>Tiana Philips</span>
+                    <span>Photographer</span>
+                </div>
+            </div>
+            <div class="recommendation">
+                <img src="https://placehold.co/300x200" alt="Recommendation Image">
+                <h3>Great Quality!</h3>
+                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet...</p>
+                <div class="tags">
+                    <span>Talan Westervelt</span>
+                    <span>Business Man</span>
+                </div>
+            </div>
+            <div class="recommendation">
+                <img src="https://placehold.co/300x200" alt="Recommendation Image">
+                <h3>Amazing Work!</h3>
+                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet...</p>
+                <div class="tags">
+                    <span>Tiana Philips</span>
+                    <span>Photographer</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Leave ME Your Info</h2>
+        <div class="form">
+            <input type="text" placeholder="Your Full Name ( Required )">
+            <input type="email" placeholder="Your Email ( Required )">
+            <input type="text" placeholder="Subject">
+            <textarea placeholder="Your Message"></textarea>
+            <button>SEND MESSAGE</button>
+        </div>
+        <div class="info">
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Country: Bangladesh</span>
+            </div>
+            <div>
+                <i class="fas fa-city"></i>
+                <span>City: Dhaka</span>
+            </div>
+            <div>
+                <i class="fas fa-road"></i>
+                <span>Street: 35 Vhatara, Badda</span>
+            </div>
+            <div>
+                <i class="fas fa-envelope"></i>
+                <span>Email: Youremail@gmail.com</span>
+            </div>
+            <div>
+                <i class="fas fa-phone"></i>
+                <span>Support Services: +58 (021)356 587 235</span>
+            </div>
+            <div>
+                <i class="fas fa-phone"></i>
+                <span>Office: +58 (021)356 587 235</span>
+            </div>
+            <div>
+                <i class="fas fa-phone"></i>
+                <span>Personal: +58 (021)356 587 235</span>
+            </div>
+            <div>
+                <i class="fab fa-skype"></i>
+                <span>Skype: @Yourusername</span>
+            </div>
+            <div>
+                <i class="fab fa-telegram"></i>
+                <span>Telegram: @Yourusername</span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">Skills</a>
+            <a href="#">Education</a>
+            <a href="#">Projects</a>
+            <a href="#">Recommendations</a>
+        </div>
+        <div class="portfolio">
+            <a href="#">Frontend Development</a>
+            <a href="#">Backend Development</a>
+            <a href="#">Website Design</a>
+            <a href="#">Machine Learning</a>
+            <a href="#">Problem Solving & DSA</a>
+        </div>
+        <div class="connect">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p>&copy; 2024 Copyright, All Right Reserved</p>
+    </footer>
+</body>
+</html>
